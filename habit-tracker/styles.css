@@ -1,0 +1,17 @@
+:root{
+    --brand-1:#ffa1e6;
+    --brand-2:#f8c2ef;
+    --ink:#ffa1e6;
+    --muted:#f8c2ef;
+    --ring:#f8c2ef;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:#fbe9f8(0, 0%, 100%);
+    color:#ffa1e6;
+    line-height:1.6;
+  }
+  button:focus, input:focus{outline:3px solid var(--ring); outline-offset:2px}
